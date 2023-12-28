@@ -7,6 +7,6 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-4.3.0-all.jar  
-Integrations: ReVanced/revanced-integrations-1.0.0.apk  
-Patches: ReVanced/revanced-patches-3.1.0.jar  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v3.1.0)  
+Integrations: ReVanced/revanced-integrations-1.1.0.apk  
+Patches: ReVanced/revanced-patches-3.2.0.jar  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v3.2.0)  
