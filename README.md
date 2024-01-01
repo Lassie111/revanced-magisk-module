@@ -47,7 +47,7 @@ bash <(curl -sSf https://raw.githubusercontent.com/Lassie111/revanced-magisk-mod
 
 ### On Desktop
 ```console
-$ git clone https://github.com/j-hc/revanced-magisk-module
+$ git clone https://github.com/Lassie111/revanced-magisk-module
 $ cd revanced-magisk-module
 $ ./build.sh
 ```
