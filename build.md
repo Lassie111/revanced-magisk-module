@@ -1,8 +1,10 @@
+YouTube: 19.09.37  
 YouTube-apk: 19.09.37  
 Music: 6.45.54  
-YouTube: 19.09.37  
 
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music  
+~~Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube and YT Music~~  
+
+Install [ReVanced GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store  
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
