@@ -10,7 +10,7 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 build-mode = "module"
-included-patches = "'Change header' 'Custom branding'"
+included-patches = "'Change header' 'Custom branding' 'Change version code'"
 #excluded-patches = "'Spoof client'"
 
 [YouTube-apk]
