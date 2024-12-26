@@ -13,11 +13,11 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 build-mode = "both"
 arch = "arm64-v8a"
-included-patches = "'Change header' 'Custom branding'"
-#excluded-patches = "'Spoof client'"
+included-patches = "'Custom branding' 'Change header'"
 patcher-args = """ \
 	-Oheader="revanced*" \
 	"""
+#excluded-patches = "'Spoof client'"
 
 #[YouTube-apk]
 #app-name = "YouTube"
