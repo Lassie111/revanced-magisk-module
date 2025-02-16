@@ -1,6 +1,6 @@
 Music: 7.29.52  
-Music-Extended: 7.16.53  
 YouTube: 19.47.53  
+Music-Extended: 8.05.51  
 YouTube-Extended: 19.44.39  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music  
