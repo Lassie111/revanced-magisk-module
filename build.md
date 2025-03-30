@@ -1,8 +1,9 @@
 Music: 8.05.51  
 Music-Extended: 8.05.51  
-GooglePhotos-apk: 7.22.0.740933857  
 GooglePhotos: 7.22.0.740933857  
+GooglePhotos-apk: 7.22.0.740933857  
 YouTube: 20.07.39  
+YouTube-Extended: 19.47.53  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store (root)  
