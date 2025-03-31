@@ -1,6 +1,6 @@
 Music: 8.05.51  
-GooglePhotos: 7.22.0.740933857  
 Music-Extended: 8.12.53  
+GooglePhotos: 7.22.0.740933857  
 GooglePhotos-apk: 7.22.0.740933857  
 YouTube: 20.07.39  
 
