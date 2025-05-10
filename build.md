@@ -1,8 +1,8 @@
-GooglePhotos: 7.27.0.752466078  
-GooglePhotos-apk: 7.27.0.752466078  
+GooglePhotos: 7.28.0.754713439  
+GooglePhotos-apk: 7.28.0.754713439  
 Music: 8.05.51  
-Spotify: 9.0.40.68  
-Spotify-apk: 9.0.40.68  
+Spotify: 9.0.44.4  
+Spotify-apk: 9.0.44.4  
 YouTube: 20.12.46  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos  
@@ -12,8 +12,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.22.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.22.0)  
+Patches: ReVanced/patches-5.23.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.23.0)  
 
 Skipped:  
-Patches: inotia00/patches-5.6.2.rvp              
+Patches: inotia00/patches-5.6.2.rvp                
