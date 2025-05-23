@@ -2,8 +2,8 @@ GooglePhotos: 7.30.0.761213354
 GooglePhotos-apk: 7.30.0.761213354  
 Music: 8.05.51  
 Music-Extended: 8.12.53  
-Spotify: 9.0.46.496  
-Spotify-apk: 9.0.46.496  
+Spotify: 9.0.48.169  
+Spotify-apk: 9.0.48.169  
 YouTube: 20.12.46  
 YouTube-Extended: 19.47.53  
 
