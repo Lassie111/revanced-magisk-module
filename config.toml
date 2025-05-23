@@ -34,7 +34,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [Music-Extended]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -49,7 +49,7 @@ excluded-patches = "'Spoof app version'"
 version = "8.12.53"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
