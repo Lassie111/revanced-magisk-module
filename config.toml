@@ -14,7 +14,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
 arch = "arm64-v8a"
-patcher-args = "-e 'Change header' -Oheader=revanced* -e 'Custom branding'"
+patcher-args = "-e 'Custom branding'"
 
 [Music]
 build-mode = "both"
