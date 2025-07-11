@@ -1,3 +1,5 @@
+GooglePhotos: 7.36.0.779865778  
+GooglePhotos-apk: 7.36.0.779865778  
 Music: 8.05.51  
 Spotify: 9.0.60.614  
 YouTube: 20.13.41  
@@ -9,5 +11,5 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.31.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.0)  
+Patches: ReVanced/patches-5.31.1.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.31.1)  

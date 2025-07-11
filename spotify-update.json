@@ -1,6 +1,6 @@
 {
-  "version": "v9.0.60.614 (patches 5.31.0)",
-  "versionCode": 125,
-  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/125/spotify-revanced-magisk-v9.0.60.614-all.zip",
+  "version": "v9.0.60.614 (patches 5.31.1)",
+  "versionCode": 126,
+  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/126/spotify-revanced-magisk-v9.0.60.614-all.zip",
   "changelog": "https://raw.githubusercontent.com/Lassie111/revanced-magisk-module/update/build.md"
 }
