@@ -17,7 +17,15 @@ arch = "arm64-v8a"
 patcher-args = "-e 'Custom branding'"
 
 [Music]
-build-mode = "both"
+build-mode = "module"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+arch = "arm64-v8a"
+patcher-args = "-d 'GmsCore support' -d 'Spoof client'"
+
+[Music-apk]
+build-mode = "apk"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
