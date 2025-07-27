@@ -1,6 +1,6 @@
 {
-  "version": "v7.38.0.785903005 (patches 5.31.2)",
-  "versionCode": 128,
-  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/128/googlephotos-revanced-magisk-v7.38.0.785903005-arm64-v8a.zip",
+  "version": "v7.38.0.785903005 (patches 5.32.0)",
+  "versionCode": 129,
+  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/129/googlephotos-revanced-magisk-v7.38.0.785903005-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/Lassie111/revanced-magisk-module/update/build.md"
 }
