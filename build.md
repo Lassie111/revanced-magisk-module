@@ -10,8 +10,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.36.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.36.0)  
+Patches: ReVanced/patches-5.37.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.37.0)  
 
 Skipped:  
-Patches: inotia00/patches-5.10.1.rvp      
+Patches: inotia00/patches-5.10.1.rvp        
