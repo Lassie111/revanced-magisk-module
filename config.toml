@@ -1,5 +1,5 @@
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
-# parallel-jobs = 1
+parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/Lassie111/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -11,50 +11,57 @@ enable-magisk-update = true # set this to false if you do not want to receive up
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
 arch = "arm64-v8a"
-patcher-args = "-e 'Change header' -Oheader=revanced* -e 'Custom branding'"
-
-#[YouTube-apk]
-#app-name = "YouTube"
-#apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-#uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-#build-mode = "apk"
-#arch = "arm64-v8a"
-#included-patches = "'Change header' 'Custom branding'"
-#patcher-args = """ \
-#	-Oheader="revanced*" \
-#	"""
+patcher-args = "-e 'Custom branding'"
 
 [Music]
-build-mode = "both"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+build-mode = "module"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
+[Music-apk]
+build-mode = "apk"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+arch = "arm64-v8a"
+patcher-args = "-d 'Spoof client'"
+
 [Music-Extended]
-enabled = true
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [YouTube-Extended]
-enabled = true
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "arm64-v8a"
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-#archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[GooglePhotos]
+build-mode = "both"
+arch = "arm64-v8a"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+
+[Spotify]
+enabled = false
+patches-source = "ReVanced/revanced-patches-spotify-testing"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
