@@ -51,9 +51,9 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Spotify]
-enabled = false
-patches-source = "ReVanced/revanced-patches-spotify-testing"
-build-mode = "both"
+enabled = true
+patches-source = "anddea/revanced-patches"
+build-mode = "module"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
