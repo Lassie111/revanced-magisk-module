@@ -1,4 +1,6 @@
-Spotify: 9.0.76.1115  
+GooglePhotos: 7.51.0.822217012  
+Music: 8.10.52  
+YouTube: 20.14.43  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store (root)  
@@ -7,9 +9,9 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 Changelog:  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: anddea/patches-3.14.0.rvp  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.14.0)  
+Patches: ReVanced/patches-5.44.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.44.0)  
 
 Skipped:  
-Patches: ReVanced/patches-5.43.1.rvp  
 Patches: inotia00/patches-5.12.1.rvp            
+Patches: anddea/patches-3.14.0.rvp    
