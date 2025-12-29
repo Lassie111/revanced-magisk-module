@@ -61,6 +61,6 @@ patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -Ooverr
 
 [Duolingo]
 build-mode = "apk"
-arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
+uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
 
