@@ -13,6 +13,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
+arch = "both"
 patcher-args = "-e 'Custom branding'"
 
 [Music]
@@ -20,6 +21,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 build-mode = "both"
+arch = "both"
 patcher-args = "-e 'Custom branding'"
 
 [YouTube-Morphe]
@@ -28,6 +30,7 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
+arch = "both"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -38,12 +41,14 @@ patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
+arch = "both"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [GooglePhotos]
 build-mode = "both"
+arch = "both"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
