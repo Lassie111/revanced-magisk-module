@@ -1,6 +1,6 @@
 {
-  "version": "v8.10.52 (patches 5.50.1.rvp)",
-  "versionCode": 169,
-  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/169/music-revanced-magisk-v8.10.52-arm64-v8a.zip",
+  "version": "v8.10.52 (patches 5.50.2.rvp)",
+  "versionCode": 170,
+  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/170/music-revanced-magisk-v8.10.52-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/Lassie111/revanced-magisk-module/update/build.md"
 }
