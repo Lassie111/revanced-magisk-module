@@ -7,8 +7,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
 CLI: ReVanced/revanced-cli-6.0.0-all.jar  
-Patches: ReVanced/patches-6.0.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v6.0.0)  
+Patches: ReVanced/patches-6.0.1.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v6.0.1)  
 
 Skipped:  
-Patches: MorpheApp/patches-1.18.0.mpp    
+Patches: MorpheApp/patches-1.18.0.mpp      
