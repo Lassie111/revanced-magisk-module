@@ -1,13 +1,13 @@
-Music-Morphe: 8.44.54  
-YouTube-Morphe: 20.44.38  
+Music: 8.40.54  
+YouTube: 20.40.45  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store (root)  
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
-CLI: MorpheApp/morphe-cli-1.5.0-all.jar  
-Patches: MorpheApp/patches-1.19.0.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.19.0)  
+CLI: ReVanced/revanced-cli-6.0.0-all.jar  
+Patches: ReVanced/patches-6.1.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v6.1.0)  
 
 Skipped:  
-Patches: ReVanced/patches-6.0.1.rvp    
+Patches: MorpheApp/patches-1.19.0.mpp    
