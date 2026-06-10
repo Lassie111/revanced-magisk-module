@@ -27,6 +27,7 @@ patcher-args = "-e 'Custom branding'"
 [YouTube-Morphe]
 app-name = "YouTube"
 patches-source = "MorpheApp/morphe-patches"
+patches-version = "dev"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
@@ -38,6 +39,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 [Music-Morphe]
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
+patches-version = "dev"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Morphe"
 build-mode = "both"
