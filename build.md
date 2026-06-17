@@ -1,4 +1,3 @@
-Music-Morphe: 8.51.51  
 YouTube-Morphe: 20.51.39  
 
 Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos  
@@ -6,8 +5,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
 CLI: MorpheApp/morphe-cli-1.9.1-all.jar  
-Patches: MorpheApp/patches-1.32.0-dev.1.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.1)  
+Patches: MorpheApp/patches-1.32.0-dev.2.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.2)  
 
 Skipped:  
-Patches: RookieEnough/patches-1.0.4.mpp            
+Patches: RookieEnough/patches-1.0.4.mpp              
