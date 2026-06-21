@@ -5,8 +5,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
 CLI: MorpheApp/morphe-cli-1.9.1-all.jar  
-Patches: MorpheApp/patches-1.32.0-dev.4.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.4)  
+Patches: MorpheApp/patches-1.32.0-dev.5.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.32.0-dev.5)  
 
 Skipped:  
-Patches: RookieEnough/patches-1.0.4.mpp                  
+Patches: RookieEnough/patches-1.0.4.mpp                    
