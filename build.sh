@@ -155,7 +155,7 @@ for table_name in $(toml_get_table_names); do
 	fi
 done
 wait
-rm -rf temp/tmp.*
+_clean_tmp
 if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
 log "\nInstall [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube, YT Music and Google Photos"
