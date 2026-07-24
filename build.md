@@ -8,7 +8,7 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouT
 Patches: MorpheApp/patches-1.36.0.mpp  
 [Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v1.36.0)
 
-CLI: MorpheApp/morphe-desktop-1.12.0-all.jar    
+Patches: RookieEnough/patches-1.0.4.mpp  
+[Changelog](https://github.com/RookieEnough/De-ReVanced/releases/tag/v1.0.4)
 
-Skipped:  
-Patches: RookieEnough/patches-1.0.4.mpp                                                                            
+CLI: MorpheApp/morphe-desktop-1.12.0-all.jar    
