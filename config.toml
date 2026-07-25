@@ -57,18 +57,3 @@ arch = "arm64-v8a"
 #uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
-
-[Spotify]
-enabled = false
-patches-source = "anddea/revanced-patches"
-build-mode = "module"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/spotify-ab/spotify-music-podcasts/"
-#uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
-patcher-args = "-e 'Custom theme' -ObackgroundColor=@android:color/black -OoverridePlayerGradientColor=true -ObackgroundColorSecondary=#FF121212 -OaccentColor=#FF1ED760 -OaccentColorPressed=#FF169C46"
-
-[Duolingo]
-enabled = false
-build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/duolingo/duolingo-duolingo/"
-#uptodown-dlurl = "https://duolingo.en.uptodown.com/android"
