@@ -1,6 +1,6 @@
 {
-  "version": "v21.16.256 (patches dev.7.mpp)",
-  "versionCode": 305,
-  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/305/youtube-morphe-module-v21.16.256-all.zip",
+  "version": "v21.16.256 (patches dev.8.mpp)",
+  "versionCode": 306,
+  "zipUrl": "https://github.com/Lassie111/revanced-magisk-module/releases/download/306/youtube-morphe-module-v21.16.256-all.zip",
   "changelog": "https://raw.githubusercontent.com/Lassie111/revanced-magisk-module/update/build.md"
 }
