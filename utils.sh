@@ -199,8 +199,6 @@ set_impersonate_curl() {
 	esac
 	local url="https://github.com/lexiforest/curl-impersonate/releases/download/${CURLIMP_VER}/curl-impersonate-${CURLIMP_VER}.${target}.tar.gz"
 	local dir="${BIN_DIR}/curl-impersonate" tar="${BIN_DIR}/curl-impersonate/dl.tar.gz"
-	# NOTE: must not write to stdout here. set_prebuilts runs during
-	# `build.sh --config-update`, whose stdout is captured into config.json.
 	pr "Fetching curl-impersonate (${target}) for apkmirror downloads" >&2
 	mkdir -p "$dir"
 	if ! curl -L --connect-timeout 10 --retry 2 --fail -s -S "$url" -o "$tar"; then
