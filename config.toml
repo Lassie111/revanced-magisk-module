@@ -9,6 +9,7 @@ parallel-jobs = 1
 #cli-source = "ReVanced/revanced-cli" # where to fetch cli from. default: "j-hc/revanced-cli"
 
 [YouTube]
+enabled = false
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 build-mode = "both"
@@ -16,6 +17,7 @@ arch = "all"
 patcher-args = "-e 'Custom branding'"
 
 [Music]
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 build-mode = "both"
