@@ -175,6 +175,46 @@ set_prebuilts() {
 	HTMLQ="${BIN_DIR}/htmlq/htmlq-${arch}"
 	AAPT2="${BIN_DIR}/aapt2/aapt2-${arch}"
 	TOML="${BIN_DIR}/toml/tq-${arch}"
+	set_impersonate_curl "$arch"
+}
+
+# APKMirror sits behind Cloudflare which blocks plain curl from datacenter IPs
+# (e.g. GitHub Actions runners) with HTTP 403. curl-impersonate mimics a real
+# browser TLS/HTTP2 fingerprint so these requests get through. The Chrome
+# profiles are themselves on Cloudflare's blocklist, so a Firefox profile is
+# used. If the binary cannot be obtained, req() falls back to plain curl.
+CURLIMP_VER="v2.3.0"
+set_impersonate_curl() {
+	local arch=$1 target bin="${BIN_DIR}/curl-impersonate/curl-impersonate-${arch}"
+	APKMIRROR_CURL=""
+	if [ -f "$bin" ]; then APKMIRROR_CURL="$bin"; return 0; fi
+	case "$arch" in
+	x86_64) target="x86_64-linux-gnu" ;;
+	arm64) if [ "$OS" = Android ]; then target="aarch64-linux-android"; else target="aarch64-linux-gnu"; fi ;;
+	arm) if [ "$OS" = Android ]; then target="armv7-linux-android"; else target="arm-linux-gnueabihf"; fi ;;
+	*)
+		epr "curl-impersonate: unsupported arch '$arch', using plain curl for apkmirror"
+		return 0
+		;;
+	esac
+	local url="https://github.com/lexiforest/curl-impersonate/releases/download/${CURLIMP_VER}/curl-impersonate-${CURLIMP_VER}.${target}.tar.gz"
+	local dir="${BIN_DIR}/curl-impersonate" tar="${BIN_DIR}/curl-impersonate/dl.tar.gz"
+	pr "Fetching curl-impersonate (${target}) for apkmirror downloads"
+	mkdir -p "$dir"
+	if ! curl -L --connect-timeout 10 --retry 2 --fail -s -S "$url" -o "$tar"; then
+		epr "curl-impersonate: download failed, falling back to plain curl for apkmirror"
+		rm -f "$tar"
+		return 0
+	fi
+	if ! tar -xzf "$tar" -C "$dir" curl-impersonate 2>/dev/null; then
+		epr "curl-impersonate: extraction failed, falling back to plain curl for apkmirror"
+		rm -f "$tar"
+		return 0
+	fi
+	mv -f "${dir}/curl-impersonate" "$bin"
+	chmod +x "$bin"
+	rm -f "$tar"
+	APKMIRROR_CURL="$bin"
 }
 
 config_update() {
@@ -242,7 +282,7 @@ _req() {
 			return
 		fi
 	fi
-	if ! curl -L -c "$TEMP_DIR/cookie.txt" -b "$TEMP_DIR/cookie.txt" --connect-timeout 10 --retry 1 --fail -s -S "$@" "$ip" -o "$dlp"; then
+	if ! "${CURL_BIN:-curl}" -L -c "$TEMP_DIR/cookie.txt" -b "$TEMP_DIR/cookie.txt" --connect-timeout 10 --retry 1 --fail -s -S "$@" "$ip" -o "$dlp"; then
 		epr "Request failed: $ip"
 		if [ "$dlp" != - ]; then rm -f "$dlp"; fi
 		return 1
@@ -251,7 +291,16 @@ _req() {
 		mv -f "$dlp" "$op"
 	fi
 }
-req() { _req "$1" "$2" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:108.0) Gecko/20100101 Firefox/108.0"; }
+req() {
+	if [ -n "${APKMIRROR_CURL-}" ]; then
+		# curl-impersonate sets its own browser UA/headers via --impersonate;
+		# --compressed is required so it decodes the br/zstd response body.
+		local CURL_BIN=$APKMIRROR_CURL
+		_req "$1" "$2" --impersonate firefox135 --compressed
+	else
+		_req "$1" "$2" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0"
+	fi
+}
 gh_req() { _req "$1" "$2" -H "$GH_HEADER"; }
 gh_dl() {
 	if [ ! -f "$1" ]; then
