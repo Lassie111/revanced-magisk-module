@@ -10,10 +10,7 @@ parallel-jobs = 1
 
 [YouTube-Morphe]
 app-name = "YouTube"
-patches-source = "MorpheApp/morphe-patches"
 patches-version = "dev"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
 build-mode = "both"
 arch = "all"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
@@ -21,10 +18,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 
 [Music-Morphe]
 app-name = "Music"
-patches-source = "MorpheApp/morphe-patches"
 patches-version = "dev"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "Morphe"
 build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
@@ -32,7 +26,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 [GooglePhotos]
 patches-source = "RookieEnough/De-Vanced"
-cli-source = "MorpheApp/morphe-cli"
 rv-brand = "De-Vanced"
 build-mode = "both"
 arch = "arm64-v8a"
@@ -41,14 +34,12 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 
 [GooglePhotos-rushiranpise]
 patches-source = "rushiranpise/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
 build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 
 [GooglePhotos-Akash-Sriram]
 patches-source = "Akash-Sriram/morphe-google-photos"
-cli-source = "MorpheApp/morphe-cli"
 build-mode = "both"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
