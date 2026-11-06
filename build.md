@@ -5,12 +5,12 @@ Install [ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases) for non
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store (root)  
 
 [revanced-magisk-module](https://github.com/Lassie111/revanced-magisk-module)  
-Patches: MorpheApp/morphe-patches/patches-2.1.0-dev.12.mpp  
-[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.1.0-dev.12)
+Patches: MorpheApp/morphe-patches/patches-2.1.0.mpp  
+[Changelog](https://github.com/MorpheApp/morphe-patches/releases/tag/v2.1.0)
 
-CLI: MorpheApp/morphe-cli/morphe-desktop-2.1.0-all.jar    
+CLI: MorpheApp/morphe-cli/morphe-desktop-2.1.1-all.jar    
 
 Skipped:  
 Patches: RookieEnough/De-Vanced/patches-1.6.4.mpp  
 Patches: Akash-Sriram/morphe-google-photos/patches-1.17.10.mpp  
-Patches: rushiranpise/morphe-patches/patches-1.23.1.mpp                  
+Patches: rushiranpise/morphe-patches/patches-1.23.1.mpp                    
